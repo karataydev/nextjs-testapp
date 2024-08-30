@@ -54,6 +54,6 @@ jobs:
         uses: caprover/deploy-from-github@v1.1.2
         with:
           server: https://karatay.dev
-          app: 'sveltekit'
-          token: '${{ secrets.APP_TOKEN }}'
-          image: 'ghcr.io/karataymarufemre/nextjs-testapp:main'
+          app: "hello-world"
+          token: "${{ secrets.APP_TOKEN }}"
+          image: "ghcr.io/karataymarufemre/nextjs-testapp:main"
